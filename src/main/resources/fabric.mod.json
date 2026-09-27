@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "coolmod",
+  "version": "1.0.0",
+  "name": "Cool Mod",
+  "description": "A cool Minecraft mod",
+  "authors": [
+    "viorele2009"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/viorele2009/coolmod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.viorele2009.coolmod.CoolMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4"
+  }
+}
